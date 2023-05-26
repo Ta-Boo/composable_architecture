@@ -1,0 +1,11 @@
+"login.title"="Odomknite svoje skúsenosti";
+"login.placeholder.username"="Používateľské meno";
+"login.placeholder.password"="Heslo";
+"login.button.login"="Prihlásiť sa";
+"login.authorizationFailed.title"="Počkajte!";
+"login.authorizationFailed.message"="Autorizácia sa nepodarila";
+
+"common.processing"="Spracovávam";
+"common.retry"="Znovu";
+
+

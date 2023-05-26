@@ -1,0 +1,11 @@
+"login.title"="Unlock Your Experience";
+"login.placeholder.username"="Username";
+"login.placeholder.password"="Password";
+"login.button.login"="Login";
+"login.authorizationFailed.title"="Hold on!";
+"login.authorizationFailed.message"="Authorization didn't go through";
+
+"common.processing"="Processing";
+"common.retry"="Retry";
+
+

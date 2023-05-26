@@ -1,0 +1,43 @@
+input_dir: Incora/Resources
+output_dir: Incora/Generated/
+
+## Strings
+strings:
+  inputs:
+    - en.lproj
+  outputs:
+    - templateName: structured-swift5
+      params:
+        publicAccess: true
+        enumName: Strings
+      output: Strings+Generated.swift
+
+## XCAssets
+xcassets:
+ inputs:
+   - Assets.xcassets
+   - Colors.xcassets
+ outputs:
+     templatePath: Templates/xcassets/assets_swift5_swiftui.stencil
+     params:
+       forceProvidesNamespaces: true
+       forceFileNameEnum: true
+     output: XCAssets+Generated.swift
+
+## Fonts
+##fonts:
+##  inputs:
+##    - Resources/Noto_Sans
+##  outputs:
+##    templatePath: Templates/fonts/fonts_swift5_swiftui.stencil
+##    output: Fonts+Generated.swift
+##
+
+## There are other parsers available for you to use depending on your needs, for example:
+##  - `fonts` (if you have custom ttf/ttc font files)
+##  - `coredata` (for CoreData models)
+##  - `json`, `yaml` and `plist` (to parse custom JSON/YAML/Plist files and generate code from their content)
+## …
+##
+## For more info, use `swiftgen config doc` to open the full documentation on GitHub.
+## https://github.com/SwiftGen/SwiftGen/tree/6.4.0/Documentation/

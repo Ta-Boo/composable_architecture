@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B36549932A1CF89D0086136A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B36549952A1CF89D0086136A /* Localizable.strings */; };
+		B365499A2A1CFA730086136A /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B36549992A1CFA730086136A /* Colors.xcassets */; };
+		B365499E2A1D05330086136A /* Strings+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B365499C2A1D05330086136A /* Strings+Generated.swift */; };
+		B365499F2A1D05330086136A /* XCAssets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B365499D2A1D05330086136A /* XCAssets+Generated.swift */; };
+		B36549A12A1DD5FC0086136A /* ImagePreviewDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36549A02A1DD5FC0086136A /* ImagePreviewDomain.swift */; };
+		B36549A52A1DE50F0086136A /* IncoraProgressStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36549A42A1DE50F0086136A /* IncoraProgressStyle.swift */; };
+		B36549A82A1E26430086136A /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36549A72A1E26430086136A /* NetworkService.swift */; };
+		B36549AA2A1E3EC50086136A /* BootcampEnpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36549A92A1E3EC50086136A /* BootcampEnpoint.swift */; };
+		B3E0297C2A1F2A95001560F0 /* IncoraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E0297B2A1F2A95001560F0 /* IncoraTests.swift */; };
+		B3E029822A1F2ABC001560F0 /* LoginDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E798712A1BD56D002AFDB1 /* LoginDomain.swift */; };
+		B3E029832A1F2DDC001560F0 /* Strings+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B365499C2A1D05330086136A /* Strings+Generated.swift */; };
+		B3E029842A1F2DDE001560F0 /* XCAssets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B365499D2A1D05330086136A /* XCAssets+Generated.swift */; };
+		B3E7984F2A1BCD4E002AFDB1 /* IncoraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E7984E2A1BCD4E002AFDB1 /* IncoraApp.swift */; };
+		B3E798512A1BCD4E002AFDB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E798502A1BCD4E002AFDB1 /* ContentView.swift */; };
+		B3E798532A1BCD4F002AFDB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3E798522A1BCD4F002AFDB1 /* Assets.xcassets */; };
+		B3E798562A1BCD4F002AFDB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3E798552A1BCD4F002AFDB1 /* Preview Assets.xcassets */; };
+		B3E7985E2A1BCDAF002AFDB1 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = B3E7985D2A1BCDAF002AFDB1 /* ComposableArchitecture */; };
+		B3E798612A1BCDCD002AFDB1 /* Screens.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E798602A1BCDCD002AFDB1 /* Screens.swift */; };
+		B3E798632A1BCE94002AFDB1 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E798622A1BCE94002AFDB1 /* MainCoordinator.swift */; };
+		B3E798692A1BD2EC002AFDB1 /* TCACoordinators in Frameworks */ = {isa = PBXBuildFile; productRef = B3E798682A1BD2EC002AFDB1 /* TCACoordinators */; };
+		B3E7986E2A1BD355002AFDB1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E7986D2A1BD355002AFDB1 /* LoginView.swift */; };
+		B3E798702A1BD360002AFDB1 /* ImagePreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E7986F2A1BD360002AFDB1 /* ImagePreviewView.swift */; };
+		B3E798722A1BD56D002AFDB1 /* LoginDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E798712A1BD56D002AFDB1 /* LoginDomain.swift */; };
+		B3E798742A1BD711002AFDB1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E798732A1BD711002AFDB1 /* Extensions.swift */; };
+		B3EE85542A1E8E5300BACEBF /* IncoraPDFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EE85532A1E8E5300BACEBF /* IncoraPDFView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3E0297D2A1F2A95001560F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3E798432A1BCD4E002AFDB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3E7984A2A1BCD4E002AFDB1;
+			remoteInfo = Incora;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B36549942A1CF89D0086136A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B36549982A1CF8B90086136A /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B36549992A1CFA730086136A /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		B365499C2A1D05330086136A /* Strings+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Strings+Generated.swift"; sourceTree = "<group>"; };
+		B365499D2A1D05330086136A /* XCAssets+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCAssets+Generated.swift"; sourceTree = "<group>"; };
+		B36549A02A1DD5FC0086136A /* ImagePreviewDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreviewDomain.swift; sourceTree = "<group>"; };
+		B36549A42A1DE50F0086136A /* IncoraProgressStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncoraProgressStyle.swift; sourceTree = "<group>"; };
+		B36549A72A1E26430086136A /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		B36549A92A1E3EC50086136A /* BootcampEnpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampEnpoint.swift; sourceTree = "<group>"; };
+		B36549AB2A1E5B680086136A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B3E029792A1F2A95001560F0 /* IncoraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IncoraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3E0297B2A1F2A95001560F0 /* IncoraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncoraTests.swift; sourceTree = "<group>"; };
+		B3E7984B2A1BCD4E002AFDB1 /* Incora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Incora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3E7984E2A1BCD4E002AFDB1 /* IncoraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncoraApp.swift; sourceTree = "<group>"; };
+		B3E798502A1BCD4E002AFDB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B3E798522A1BCD4F002AFDB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3E798552A1BCD4F002AFDB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3E798602A1BCDCD002AFDB1 /* Screens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screens.swift; sourceTree = "<group>"; };
+		B3E798622A1BCE94002AFDB1 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		B3E7986D2A1BD355002AFDB1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B3E7986F2A1BD360002AFDB1 /* ImagePreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreviewView.swift; sourceTree = "<group>"; };
+		B3E798712A1BD56D002AFDB1 /* LoginDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDomain.swift; sourceTree = "<group>"; };
+		B3E798732A1BD711002AFDB1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B3EE85532A1E8E5300BACEBF /* IncoraPDFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncoraPDFView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3E029762A1F2A95001560F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3E798482A1BCD4E002AFDB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3E7985E2A1BCDAF002AFDB1 /* ComposableArchitecture in Frameworks */,
+				B3E798692A1BD2EC002AFDB1 /* TCACoordinators in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B36549902A1CF85E0086136A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B3E798522A1BCD4F002AFDB1 /* Assets.xcassets */,
+				B36549952A1CF89D0086136A /* Localizable.strings */,
+				B36549992A1CFA730086136A /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B365499B2A1D05330086136A /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				B365499C2A1D05330086136A /* Strings+Generated.swift */,
+				B365499D2A1D05330086136A /* XCAssets+Generated.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		B36549A22A1DE4EA0086136A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B3EE85532A1E8E5300BACEBF /* IncoraPDFView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B36549A32A1DE4F60086136A /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				B36549A42A1DE50F0086136A /* IncoraProgressStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		B36549A62A1E262E0086136A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B36549A72A1E26430086136A /* NetworkService.swift */,
+				B36549A92A1E3EC50086136A /* BootcampEnpoint.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B3E0297A2A1F2A95001560F0 /* IncoraTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3E0297B2A1F2A95001560F0 /* IncoraTests.swift */,
+			);
+			path = IncoraTests;
+			sourceTree = "<group>";
+		};
+		B3E798422A1BCD4E002AFDB1 = {
+			isa = PBXGroup;
+			children = (
+				B3E7984D2A1BCD4E002AFDB1 /* Incora */,
+				B3E0297A2A1F2A95001560F0 /* IncoraTests */,
+				B3E7984C2A1BCD4E002AFDB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3E7984C2A1BCD4E002AFDB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3E7984B2A1BCD4E002AFDB1 /* Incora.app */,
+				B3E029792A1F2A95001560F0 /* IncoraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3E7984D2A1BCD4E002AFDB1 /* Incora */ = {
+			isa = PBXGroup;
+			children = (
+				B36549AB2A1E5B680086136A /* Info.plist */,
+				B36549A62A1E262E0086136A /* Networking */,
+				B36549A32A1DE4F60086136A /* Styles */,
+				B36549A22A1DE4EA0086136A /* Views */,
+				B365499B2A1D05330086136A /* Generated */,
+				B36549902A1CF85E0086136A /* Resources */,
+				B3E7986A2A1BD324002AFDB1 /* ViewControllers */,
+				B3E798732A1BD711002AFDB1 /* Extensions.swift */,
+				B3E7984E2A1BCD4E002AFDB1 /* IncoraApp.swift */,
+				B3E798502A1BCD4E002AFDB1 /* ContentView.swift */,
+				B3E798542A1BCD4F002AFDB1 /* Preview Content */,
+			);
+			path = Incora;
+			sourceTree = "<group>";
+		};
+		B3E798542A1BCD4F002AFDB1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B3E798552A1BCD4F002AFDB1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B3E7985F2A1BCDB5002AFDB1 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				B3E798602A1BCDCD002AFDB1 /* Screens.swift */,
+				B3E798622A1BCE94002AFDB1 /* MainCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		B3E7986A2A1BD324002AFDB1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B3E7986C2A1BD340002AFDB1 /* Home */,
+				B3E7986B2A1BD333002AFDB1 /* Registration */,
+				B3E7985F2A1BCDB5002AFDB1 /* Coordinators */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B3E7986B2A1BD333002AFDB1 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				B3E7986D2A1BD355002AFDB1 /* LoginView.swift */,
+				B3E798712A1BD56D002AFDB1 /* LoginDomain.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		B3E7986C2A1BD340002AFDB1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B3E7986F2A1BD360002AFDB1 /* ImagePreviewView.swift */,
+				B36549A02A1DD5FC0086136A /* ImagePreviewDomain.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3E029782A1F2A95001560F0 /* IncoraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3E029812A1F2A95001560F0 /* Build configuration list for PBXNativeTarget "IncoraTests" */;
+			buildPhases = (
+				B3E029752A1F2A95001560F0 /* Sources */,
+				B3E029762A1F2A95001560F0 /* Frameworks */,
+				B3E029772A1F2A95001560F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3E0297E2A1F2A95001560F0 /* PBXTargetDependency */,
+			);
+			name = IncoraTests;
+			productName = IncoraTests;
+			productReference = B3E029792A1F2A95001560F0 /* IncoraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3E7984A2A1BCD4E002AFDB1 /* Incora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3E798592A1BCD4F002AFDB1 /* Build configuration list for PBXNativeTarget "Incora" */;
+			buildPhases = (
+				B3E798472A1BCD4E002AFDB1 /* Sources */,
+				B3E798482A1BCD4E002AFDB1 /* Frameworks */,
+				B3E798492A1BCD4E002AFDB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Incora;
+			packageProductDependencies = (
+				B3E7985D2A1BCDAF002AFDB1 /* ComposableArchitecture */,
+				B3E798682A1BD2EC002AFDB1 /* TCACoordinators */,
+			);
+			productName = Incora;
+			productReference = B3E7984B2A1BCD4E002AFDB1 /* Incora.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3E798432A1BCD4E002AFDB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B3E029782A1F2A95001560F0 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B3E7984A2A1BCD4E002AFDB1;
+					};
+					B3E7984A2A1BCD4E002AFDB1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B3E798462A1BCD4E002AFDB1 /* Build configuration list for PBXProject "Incora" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				sk,
+			);
+			mainGroup = B3E798422A1BCD4E002AFDB1;
+			packageReferences = (
+				B3E7985C2A1BCDAF002AFDB1 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				B3E798672A1BD2EC002AFDB1 /* XCRemoteSwiftPackageReference "TCACoordinators" */,
+			);
+			productRefGroup = B3E7984C2A1BCD4E002AFDB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3E7984A2A1BCD4E002AFDB1 /* Incora */,
+				B3E029782A1F2A95001560F0 /* IncoraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3E029772A1F2A95001560F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3E798492A1BCD4E002AFDB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B365499A2A1CFA730086136A /* Colors.xcassets in Resources */,
+				B3E798562A1BCD4F002AFDB1 /* Preview Assets.xcassets in Resources */,
+				B36549932A1CF89D0086136A /* Localizable.strings in Resources */,
+				B3E798532A1BCD4F002AFDB1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3E029752A1F2A95001560F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3E0297C2A1F2A95001560F0 /* IncoraTests.swift in Sources */,
+				B3E029822A1F2ABC001560F0 /* LoginDomain.swift in Sources */,
+				B3E029832A1F2DDC001560F0 /* Strings+Generated.swift in Sources */,
+				B3E029842A1F2DDE001560F0 /* XCAssets+Generated.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3E798472A1BCD4E002AFDB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3E798612A1BCDCD002AFDB1 /* Screens.swift in Sources */,
+				B3E798702A1BD360002AFDB1 /* ImagePreviewView.swift in Sources */,
+				B36549A52A1DE50F0086136A /* IncoraProgressStyle.swift in Sources */,
+				B3EE85542A1E8E5300BACEBF /* IncoraPDFView.swift in Sources */,
+				B365499E2A1D05330086136A /* Strings+Generated.swift in Sources */,
+				B3E798632A1BCE94002AFDB1 /* MainCoordinator.swift in Sources */,
+				B3E798742A1BD711002AFDB1 /* Extensions.swift in Sources */,
+				B36549AA2A1E3EC50086136A /* BootcampEnpoint.swift in Sources */,
+				B365499F2A1D05330086136A /* XCAssets+Generated.swift in Sources */,
+				B3E798722A1BD56D002AFDB1 /* LoginDomain.swift in Sources */,
+				B3E798512A1BCD4E002AFDB1 /* ContentView.swift in Sources */,
+				B36549A12A1DD5FC0086136A /* ImagePreviewDomain.swift in Sources */,
+				B3E7986E2A1BD355002AFDB1 /* LoginView.swift in Sources */,
+				B36549A82A1E26430086136A /* NetworkService.swift in Sources */,
+				B3E7984F2A1BCD4E002AFDB1 /* IncoraApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3E0297E2A1F2A95001560F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3E7984A2A1BCD4E002AFDB1 /* Incora */;
+			targetProxy = B3E0297D2A1F2A95001560F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B36549952A1CF89D0086136A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B36549942A1CF89D0086136A /* en */,
+				B36549982A1CF8B90086136A /* sk */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3E0297F2A1F2A95001560F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N82KAU4H24;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sova.IncoraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Incora.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Incora";
+			};
+			name = Debug;
+		};
+		B3E029802A1F2A95001560F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N82KAU4H24;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sova.IncoraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Incora.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Incora";
+			};
+			name = Release;
+		};
+		B3E798572A1BCD4F002AFDB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3E798582A1BCD4F002AFDB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3E7985A2A1BCD4F002AFDB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Incora/Preview Content\"";
+				DEVELOPMENT_TEAM = N82KAU4H24;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Incora/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sova.Incora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3E7985B2A1BCD4F002AFDB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Incora/Preview Content\"";
+				DEVELOPMENT_TEAM = N82KAU4H24;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Incora/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sova.Incora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3E029812A1F2A95001560F0 /* Build configuration list for PBXNativeTarget "IncoraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3E0297F2A1F2A95001560F0 /* Debug */,
+				B3E029802A1F2A95001560F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3E798462A1BCD4E002AFDB1 /* Build configuration list for PBXProject "Incora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3E798572A1BCD4F002AFDB1 /* Debug */,
+				B3E798582A1BCD4F002AFDB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3E798592A1BCD4F002AFDB1 /* Build configuration list for PBXNativeTarget "Incora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3E7985A2A1BCD4F002AFDB1 /* Debug */,
+				B3E7985B2A1BCD4F002AFDB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B3E7985C2A1BCDAF002AFDB1 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+		B3E798672A1BD2EC002AFDB1 /* XCRemoteSwiftPackageReference "TCACoordinators" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/johnpatrickmorgan/TCACoordinators";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B3E7985D2A1BCDAF002AFDB1 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B3E7985C2A1BCDAF002AFDB1 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		B3E798682A1BD2EC002AFDB1 /* TCACoordinators */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B3E798672A1BD2EC002AFDB1 /* XCRemoteSwiftPackageReference "TCACoordinators" */;
+			productName = TCACoordinators;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B3E798432A1BCD4E002AFDB1 /* Project object */;
+}
